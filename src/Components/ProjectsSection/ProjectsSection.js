@@ -9,6 +9,8 @@ function ProjectsSection() {
     }, [])
 
 
+
+
     return (
         <div data-aos="fade-up" className="py-12 md:py-24 px-4 md:px-12 lg:px-24">
             <h1 className="text-Yellow font-extrabold text-[3.5em] md:text-[4em] lg:text-[4.5em] font-[poppins]">PROJECTS.</h1>
