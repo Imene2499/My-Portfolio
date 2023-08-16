@@ -15,8 +15,8 @@ function ExperienceSection() {
                 <div className="p-4 md:p-0 md:pt-8 lg:pl-8 lg:pt-0">
                     <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">DESIGN MANAGER AT CSE (CLUB SCIENTIFIQUE DE ESI)</h3>
                     <br />
-                    <p className="font-[Raleway] font-medium text-[1.1em]  md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">I Collaborated with the marketing team of the club to design eye-catching posters, banners, that communicated our club's activities.
-                        I also led a team of graphic designers, providing guidance, and feedback to ensure the delivery of high-quality
+                    <p className="font-[Raleway] font-medium text-[1.1em]  md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">I Collaborated with the <span className="font-bold">marketing team</span> of the club to design eye-catching posters, banners, that communicated our club's activities.
+                        I also led a team of <span className="font-bold">graphic designers</span>, providing guidance, and feedback to ensure the delivery of high-quality
                         design work.
                     </p>
                 </div>
@@ -27,8 +27,8 @@ function ExperienceSection() {
                     <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">MENTOR AT CSE (CLUB SCIENTIFIQUE DE ESI)</h3>
                     <br />
                     <p className="font-[Raleway] font-medium text-[1.1em] md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">Served as a mentor for an intern project within the CSE club where
-                        I provided leadership and guidance to a team of nearly 20 participants over a span of 3 months
-                        and developed a digital solution for the assigned challenge with my team.
+                        I provided <span className="font-bold">leadership</span> and guidance to a team of nearly 20 participants over a span of 3 months
+                        and developed a <span className="font-bold">digital solution</span> for the assigned challenge with my team.
                     </p>
                 </div>
 
@@ -39,7 +39,7 @@ function ExperienceSection() {
                 <div className="p-4 md:p-0 md:pt-8 lg:pl-8 lg:pt-0">
                     <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">HACKATHONS PARTICIPANT.</h3>
                     <br />
-                    <p className="font-[Raleway] font-medium text-[1.1em] md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">Took part in various hackathons, both within and beyond my college, these experiences nriched me with a wealth of skills, encompassing teamwork, stress management, and the rapid crafting of
+                    <p className="font-[Raleway] font-medium text-[1.1em] md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">Took part in various <span className="font-bold">hackathons</span>, both within and beyond my college, these experiences enriched me with a wealth of skills, encompassing <span className="font-bold">teamwork, stress management</span>, and the rapid crafting of
                         digital solutions under time constraints.
                     </p>
                 </div>

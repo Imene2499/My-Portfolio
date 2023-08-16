@@ -1,5 +1,13 @@
-import React from "react";
-import nav from "../../assets/nav.svg";
+import React from "react"
+import nav from "../../assets/nav.svg"
+import HomeSection from "../HomeSection/HomeSection"
+import AboutSection from "../AboutSection/AboutSection"
+import EducationSecion from "../EducationSection/EducationSection"
+import ExperienceSection from "../ExperienceSection/ExperienceSection"
+import SkillsSection from "../SkillsSection/SkillsSection"
+import ProjectsSection from "../ProjectsSection/ProjectsSection"
+import ContactSection from "../ContactSection/ContactSection"
+
 
 function NavBar() {
     return (

@@ -11,8 +11,8 @@ function AboutSection() {
             <section className="pl-4 md:pl-16">
                 <h1 className="text-Yellow font-extrabold text-[4em] lg:text-[4.5em]">ABOUT.</h1>
                 <p className="text-DarkBlue font-[Raleway] font-medium leading-10 text-[1.1em]">A  3rd year computer science student at the higher national school
-                    of computer Sciene (ESI EX INI) based in Oued Smar, Algiers, Algeria,
-                    a web developer and a Designer, Arabic is my native language and I
+                    of <span className="font-bold">computer Sciene</span> (ESI EX INI) based in Oued Smar, Algiers, Algeria,
+                    a <span className="font-bold">web developer</span> and a <span className="font-bold">Designer</span>, Arabic is my native language and I
                     speak both French and English fluently.</p>
 
             </section>
