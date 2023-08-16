@@ -12,7 +12,7 @@ import tailwind from "../../assets/tailwind.svg"
 function SkillsSection() {
     return (
         <div className="pt-24 md:py-24">
-            <h1 className="text-Yellow font-extrabold text-[4em] lg:text-[4.5em] font-[poppins] pb-12 md:pb-24 px-8 md:px-12 lg:px-24">SKILLS.</h1>
+            <h1 className="text-Yellow font-extrabold text-[3.5em] md:text-[4em] lg:text-[4.5em] font-[poppins] pb-12 md:pb-24 px-4 md:px-12 lg:px-24">SKILLS.</h1>
             <div className="flex flex-col p-4 md:p-0">
                 <div className="flex justify-between items-center px-8 md:px-24 pb-24">
                     <i class="fa-brands fa-html5 text-DarkBrown text-[6em] md:text-[10em]"></i>
