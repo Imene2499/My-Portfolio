@@ -1,12 +1,17 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import Imene from '../../assets/Imene3.svg'
 import resume from "../../assets/CV.pdf"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 
 function HomeSection() {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
         <div className='w-full flex flex-col-reverse md:flex-row justify-center md:justify-between items-center md:items-start lg:items-center md:pr-8 lg:pr-16'>
-            <section className="hometext text-DarkBlue py-0 md:py-24 md:px-12 lg:py-28 lg:px-24 flex flex-col items-center md:items-start">
+            <section data-aos="fade-right" className="hometext text-DarkBlue py-0 md:py-24 md:px-12 lg:py-28 lg:px-24 flex flex-col items-center md:items-start">
                 <p className='text-[1.3em] lg:text-[1.5em]'>Hello, I'm Imene,</p>
                 <br />
                 <h1 className='md:text-left text-center font-extrabold text-[2.5em] md:text-[2.9em] lg:text-[3.5em] xl:text-[4em]'>
@@ -22,7 +27,7 @@ function HomeSection() {
                 </div>
             </section>
 
-            <section className="image py-8 md:py-24 lg:py-8 relative transition-transform transform hover:scale-105 transition-all duration-300 ease-in-out">
+            <section data-aos="fade-left" className="image py-8 md:py-24 lg:py-8 relative transition-transform transform hover:scale-105 transition-all duration-300 ease-in-out">
                 <img src={Imene} alt="Imene's Avatar" className='m-auto w-[20em] md:w-[50em] lg:w-[48em]'></img>
             </section>
         </div>

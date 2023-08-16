@@ -17,32 +17,32 @@ function NavBar() {
             <nav className="hidden sm:hidden md:block">
                 <ul className="flex text-[0.8em] md:text-[0.9em] lg:text-[1em]">
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             Home
                         </a>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             About
                         </a>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             Experience
                         </a>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             Skills
                         </a>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             Projects
                         </a>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown">
+                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
                             Contact
                         </a>
                     </li>

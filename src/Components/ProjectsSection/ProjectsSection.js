@@ -1,9 +1,16 @@
-import React from "react"
+import { React, useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 
 function ProjectsSection() {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
+
+
     return (
-        <div className="py-12 md:py-24 px-4 md:px-12 lg:px-24">
+        <div data-aos="fade-up" className="py-12 md:py-24 px-4 md:px-12 lg:px-24">
             <h1 className="text-Yellow font-extrabold text-[3.5em] md:text-[4em] lg:text-[4.5em] font-[poppins]">PROJECTS.</h1>
             <p className="text-DarkBlue font-[Raleway] font-medium leading-10 pb-12 md:text-[1.2em]">I mainly use <span className="font-bold">Github</span> to share and collaborate projects, you can check them out in my Github account below, also you can find
                 my a part of my design projects in <span className="font-bold">CSE's (Club Scientifique de ESI) instagram page</span> as I am a part of the design team of the club.

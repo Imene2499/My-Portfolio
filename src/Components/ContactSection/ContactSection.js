@@ -1,9 +1,14 @@
-import React from "react"
+import { React, useEffect } from "react"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 
 function ContactSection() {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
-        <div className="py-12 md:py-24 px-4 md:px-12 lg:px-24">
+        <div data-aos="fade-up" className="py-12 md:py-24 px-4 md:px-12 lg:px-24">
             <h1 className="text-Yellow font-extrabold text-[3.5em] md:text-[4em] lg:text-[4.5em] font-[poppins]">CONTACT.</h1>
             <p className="text-DarkBlue font-[Raleway] font-bold pt-4 md:pt-16 leading-10 pb-8 md:text-[1.2em] text-center">Don't hesitate to reach out to me if you like my work!
             </p>

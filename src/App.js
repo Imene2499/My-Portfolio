@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import HomeSection from './Components/HomeSection/HomeSection'
@@ -7,6 +8,7 @@ import ExperienceSection from './Components/ExperienceSection/ExperienceSection'
 import SkillsSection from './Components/SkillsSection/SkillsSection'
 import ProjectsSection from './Components/ProjectsSection/ProjectsSection'
 import ContactSection from './Components/ContactSection/ContactSection'
+
 
 function App() {
   return (
