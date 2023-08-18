@@ -1,5 +1,6 @@
 import React from "react"
 import nav from "../../assets/nav.svg"
+import { Link } from 'react-scroll'
 import HomeSection from "../HomeSection/HomeSection"
 import AboutSection from "../AboutSection/AboutSection"
 import EducationSecion from "../EducationSection/EducationSection"
@@ -17,34 +18,34 @@ function NavBar() {
             <nav className="hidden sm:hidden md:block">
                 <ul className="flex text-[0.8em] md:text-[0.9em] lg:text-[1em]">
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="home" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="about" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="experience" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             Experience
-                        </a>
+                        </Link>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="skills" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             Skills
-                        </a>
+                        </Link>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="projects" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             Projects
-                        </a>
+                        </Link>
                     </li>
                     <li className="mr-4 md:mr-8 lg:mr-16">
-                        <a href="https://tailwindcss.com/docs/min-height" className="hover:text-DarkBrown font-medium">
+                        <Link to="contact" smooth={true} className="hover:text-DarkBrown font-medium cursor-pointer">
                             Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>

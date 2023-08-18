@@ -18,7 +18,7 @@ function ExperienceSection() {
             <div data-aos='fade-up' className="flex justify-between items-center flex-col lg:flex-row pb-16 md:pb-28 px-4 md:px-16 lg:px-0">
                 <img src={DesignManager} className="w-full lg:w-[30em] border-[1.3px] rounded-[5px] border-DarkBrown transition-transform transform hover:scale-105 transition-all duration-300 ease-in-out"></img>
                 <div className="p-4 md:p-0 md:pt-8 lg:pl-8 lg:pt-0">
-                    <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">DESIGN MANAGER AT CSE (CLUB SCIENTIFIQUE DE ESI)</h3>
+                    <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">DESIGN ASSISTANT AT CSE (CLUB SCIENTIFIQUE DE ESI)</h3>
                     <br />
                     <p className="font-[Raleway] font-medium text-[1em]  md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">I Collaborated with the <span className="font-bold">marketing team</span> of the club to design eye-catching posters, banners, that communicated our club's activities.
                         I also led a team of <span className="font-bold">graphic designers</span>, providing guidance, and feedback to ensure the delivery of high-quality
@@ -44,7 +44,7 @@ function ExperienceSection() {
                     <h3 className="font-[poppins] font-bold text-[1.3em] md:text-[1.5em] text-center md:text-left leading-8">HACKATHONS PARTICIPANT.</h3>
                     <br />
                     <p className="font-[Raleway] font-medium text-[1em] md:text-[1.2em] lg:text-[1.1em] leading-10 text-center md:text-left">Took part in various <span className="font-bold">hackathons</span>, both within and beyond my college, these experiences enriched me with a wealth of skills, encompassing <span className="font-bold">teamwork, stress management</span>, and the rapid crafting of
-                        digital solutions under time constraints.
+                        <span className="font-bold"> digital solutions</span> under time constraints.
                     </p>
                 </div>
             </div>

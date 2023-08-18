@@ -10,7 +10,7 @@ function AboutSection() {
         AOS.init({ duration: 2000 });
     }, [])
     return (
-        <div data-aos="fade-up" className="pt-24 md:pt-8 lg:pt-32 px-4 md:px-12 lg:px-24 flex flex-col-reverse md:flex-row items-end md:items-center justify-center md:justify-between">
+        <div data-aos="fade-up" id="about" className="pt-24 md:pt-8 lg:pt-32 px-4 md:px-12 lg:px-24 flex flex-col-reverse md:flex-row items-end md:items-center justify-center md:justify-between">
             <section>
                 <img src={Imene} className="w-[15rem] md:w-[40rem] lg:w-[40rem] transition-transform transform hover:scale-105 transition-all duration-300 ease-in-out"></img>
             </section>

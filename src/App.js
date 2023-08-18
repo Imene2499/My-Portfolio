@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { Element } from 'react-scroll'
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import HomeSection from './Components/HomeSection/HomeSection'
@@ -14,13 +14,25 @@ function App() {
   return (
     <div className='bg-LightYellow min-h-[100%]'>
       <NavBar />
-      <HomeSection />
-      <AboutSection />
+      <Element name="home">
+        <HomeSection />
+      </Element>
+      <Element name="about">
+        <AboutSection />
+      </Element>
       <EducationSecion />
-      <ExperienceSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
+      <Element name="experience">
+        <ExperienceSection />
+      </Element>
+      <Element name="skills">
+        <SkillsSection />
+      </Element>
+      <Element name="projects">
+        <ProjectsSection />
+      </Element>
+      <Element name="contact">
+        <ContactSection />
+      </Element>
     </div>
   );
 }
